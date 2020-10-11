@@ -14,25 +14,25 @@
 
 ### **The Dataset**
 
-The dataset to be used in this webinar is a CSV file named `airbnb.csv`, which contains data on airbnb listings in the state of New York. It contains the following columns:
+The dataset to be used in this webinar is a CSV file named `employee_churn_trimmed.csv`, which contains data on employees attrition rates.
 
-- `listing_id`: The unique identifier for a listing
-- `description`: The description used on the listing
-- `host_id`: Unique identifier for a host
-- `neighbourhood_full`: Name of boroughs and neighbourhoods
-- `coordinates`: Coordinates of listing _(latitude, longitude)_
-- `listing_added`: Date of added listing
-- `room_type`: Type of room 
-- `rating`: Rating from 0 to 5.
-- `price`: Price per night for listing
-- `number_of_reviews`: Amount of reviews received 
-- `reviews_per_month`: Number of reviews per month
-- `availability_365`: Number of days available per year
-- `number_of_stays`: Total number of stays thus far
+_Employee data:_
 
-### **Questions to answer**
+- `Age`: Employee Age.
+- `Attrition`: Did they churn or no? (`Churned`, `Stayed`).
+- `DistanceFromHome`: Distance of office from Employee home in Km.
+- `Education`: Degree of college education (`'Bellow College'`, `'College'`, `'Bachelor's degree'`, `'Master's degree'`, `'PhD'`).
+- `EducationField`: Field of study.
+- `Gender`: Gender of employee (`'Male'`, `'Female'`).
+- `MonthlyIncome`: Monthly Income in USD $.
+- `PercentSalaryHike`: % increase in salary last year.
+- `PerformanceRating`: Rating of Employee Performance (`Low`, `Good`, `Great`, `Excellent`).
+- `YearsAtCompany`: Number of years spent at company.
 
-- **Question 1:** What is the distribution of price per room type?
-- **Question 2:** What are the number of listings per borough?
-- **Question 3:** What are the number of listings per year?
-- **Question 4:** What are the number of listings per year in each borough?
+_Survey responses:_
+
+- `EnvironmentSatisfaction`: Rating of Employee Satisfaciton with work environment (`Low`, `Good`, `Great`, `Excellent`).
+- `JobInvolvement`: Rating of Employee Job Involvement (`Low`, `Good`, `Great`, `Excellent`).
+- `JobSatisfaction`: Rating of Employee Job Satisfaction (`Low`, `Good`, `Great`, `Excellent`).
+- `RelationshipSatisfaction`: Rating of Employee Relationships Satisfaction (`Low`, `Good`, `Great`, `Excellent`).
+- `WorklifeBalance`: Rating of Employee Work life balance Satisfaction (`Low`, `Good`, `Great`, `Excellent`).
